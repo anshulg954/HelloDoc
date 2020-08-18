@@ -8,74 +8,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="icon" href="img/logo.png" type="image/icon" sizes="16x16">
 
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap CSS File -->
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="sheet.css" media="screen" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
-
 <body>
-    <div id='background'></div>
-    <div class='navbar navbar-fixed-top'>
-        <nav class='navbar-inner header'>
-            <div class='container'>
-                <div class='brand'>
-                    SPROUTS CLINIC<i class="fas fa-briefcase-medical"  style="text-shadow: 1px 1px white, -1px -1px #666;"></i>
-                </div>
-                <div class="nav_">
-                    <ul class='nav pull-right'>
-                        <li>
-                            <a class='nav-link' href="#about">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a class='nav-link' href="#services">
-                                Our Services
-                            </a>
-                        </li>
-                        <li>
-                            <a class='nav-link' href="#faq">
-                                FAQs
-                            </a>
-                        </li>
+    <section>
+
+        <div class="animated">COntent here</div>
+
+    </section>
+
+
+    <header id="header">
+
+        <div class="container-fluid">
+            <div id="logo" class="pull-left">
+
+
+                <img src="img/logo.png" alt="" title="" style="height: 1%;width: 7%;padding-left: 20px;" />
+
+
+                <nav id="nav-menu-container">
+
+                    <ul class="nav-menu">
+
+                        <li><a href="#intro" class="nav-link">Home</a></li>
+
+                        <li><a href="#about" class="nav-link">About The Doc</a></li>
+
+                        <li><a href="#services" class="nav-link">FAQs</a></li>
+
                         <li class='dropdown'>
                             <a class='dropdown-toggle nav-link' data-toggle='dropdown' aria-expanded="false">
                                 Login/Signup
                             </a>
-                                <ul class='dropdown-menu text-center'>
-                                    <li>
-                                        <a href="login.php">
-                                           Login
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            Sign Up
-                                        </a>
-                                    </li>
-                                </ul>
-                            
+                            <ul class='dropdown-menu text-center'>
+                                <li>
+                                    <a href="login.php">
+                                        Login
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Sign Up
+                                    </a>
+                                </li>
+                            </ul>
+
                         </li>
+
+
+                        <li><a href="#footer" class="nav-link">Contact</a></li>
+
                     </ul>
 
-                </div>
-                <div class='triangle-down center' onclick="func()">
-                    <p>
-                        <i class='fa fa-chevron-down fa-2x isDown' id='toggle'></i>
-                    </p>
-                </div>
+                </nav>
+
+
             </div>
-        </nav>
-        <br>
-    </div>
+            <div>
+                <!-- #nav-menu-container -->
+            </div>
+        </div>
 
 
-    <header class="jumbotron" >
+    </header><!-- #header -->
+
+
+
+
+
+    <section id="about" class="content">
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
@@ -88,7 +118,7 @@
 
             </div>
         </div>
-    </header>
+    </section>
 
 
     <div class="container pt-4">
@@ -138,190 +168,184 @@
                 </div>
             </div>
         </div>
-        <!--
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Our Lipsmacking Culinary Creations</h3>
-            </div>
-            <div class="col col-sm order-sm-first col-md">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="uthappizza.png" alt="Uthappizza">
-                    <div class="media-body">
-                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3">
-                <h3>This Month's Promotions</h3>
-            </div>
-            <div class="col col-sm col-md">
-                <div class="media">
-                    <div class="media-body">
-                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger"> New</span></h2>
-                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person</p>
-                    </div>
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="buffet.png" alt="Buffet">
-                </div>
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Meet our Culinary Specialists</h3>
-            </div>
-            <div class="col col-sm order-sm-first col-md">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="alberto.png" alt="Alberto Somayya">
-                    <div class="media-body">
-                        <h2 class="mt-0">Alberto Somayya</h2>
-                        <h4>Executive Chef</h4>
-                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.
-                        </p>
+    </div>
+
+
+    <div class="container pt-4">
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="uthappizza.png" alt="Uthappizza">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-default">$4.99</span></h2>
+                                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger"> New</span></h2>
+                                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person</p>
+                            </div>
+                            <img class="d-flex mr-3 img-thumbnail align-self-center" src="buffet.png" alt="Buffet">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-flex mr-3 img-thumbnail align-self-center" src="alberto.png" alt="Alberto Somayya">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="mt-0">Alberto Somayya</h2>
+                                <h4>Executive Chef</h4>
+                                <p class="d-none d-sm-block">
+                                    Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.
+                                </p>
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#mycarousel" data-slide-to="1"></li>
+                            <li data-target="#mycarousel" data-slide-to="2"></li>
+                        </ol>
+                        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                            <span id="carousel-button-icon" class="fa fa-pause"></span>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-                        121, Clear Water Bay Road<br>
-                        Clear Water Bay, Kowloon<br>
-                        HONG KONG<br>
-                        Tel.: +852 1234 5678<br>
-                        Fax: +852 8765 4321<br>
-                        Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-                    </address>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
-                                class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-            -->
-        <footer>
+
+
+
+
+  
+
+        <footer id="footer">
+
             <div class="footer-top">
+
                 <div class="container">
+
                     <div class="row">
-                        <div class="col-md-4 col-lg-4 footer-about wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                            <img class="logo-footer" src="assets/img/logo.png" alt="logo-footer" data-at2x="assets/img/logo.png" width="74" height="85">
+
+
+
+                        <div class="col-lg-4 col-md-6 footer-info">
+
+                            <h3>Sprouts Clinic</h3>
+
+                            <p class="text-justify">Aim here</p>
+                        </div>
+
+
+
+                        <div class="col-lg-4 col-md-6 footer-links">
+
+                            <h4>Useful Links</h4>
+
+                            <ul>
+
+                                <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
+
+                                <li><i class="ion-ios-arrow-right"></i> <a href="index.html#about">About the Doc</a></li>
+
+                                <li><i class="ion-ios-arrow-right"></i> <a href="index.html#services">FAQs</a></li>
+
+                                <li><i class="ion-ios-arrow-right"></i> <a href="http://www.ccet.ac.in" target="_blank">Webmasters</a></li>
+
+                            </ul>
+
+                        </div>
+
+
+
+                        <div class="col-lg-4 col-md-6 footer-contact">
+
+                            <h4>Contact Us</h4>
+
                             <p>
-                                We believe in the capability of the youth that it can bring a massive change in every field in the upcoming years.
+
+                                Sprouts Clinc<br>
+
+                               Chandigarh, India<br>
+
+                                <strong>Website:</strong><a href="http://www.sproutsclinic.com" target="_blank"> www.sproutsclinic.com</a><br>
+
                             </p>
-                            <p><a href="#">Our Team</a></p>
+                            <div class="social-links">
+                                <a href="https://" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="https://" class="instagram"><i class="fa fa-instagram"></i></a>
+                                <a href="mailto:@gmail.com" class="google-plus"><i class="fa fa-envelope"></i></a>
+                                <a href="https://" class="fa fa-twitter"></a>
+                            </div>
+
+
                         </div>
-                        <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
-                            <h3>Contact</h3>
-                            <p><i class="fas fa-map-marker-alt"></i> Chandigarh, India</p>
-                            <p><i class="fas fa-phone"></i> Phone: +91 95605 21186, +91 96868 98238</p>
-                            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">yourmail@domain.com</a></p>
-                            <p><i class="fab fa-skype"></i> Skype: </p>
-                        </div>
-                        <div class="col-md-4 col-lg-3 footer-social wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                            <h3>Follow us</h3>
-                            <p>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-pinterest"></i></a>
-                            </p>
-                        </div>
+
+
+
                     </div>
+
                 </div>
+
             </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5 footer-copyright">
-                            <p>© Copyright 2020 <a href="https://sproutsclinic.com">Sprouts Clinic</a></p>
-                        </div>
-                        <div class="col-md-7 footer-menu">
-                            <nav class="navbar navbar-dark navbar-expand-md">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarNav">
-                                    <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item">
-                                            <a class="nav-link scroll-link" href="#top-content">Top</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link scroll-link" href="#section-1">Section 1</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link scroll-link" href="#section-2">Section 2</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link scroll-link" href="#section-3">Section 3</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link scroll-link" href="#section-4">Section 4</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
+
         </footer>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <script>
-            $(document).ready(function () {
-                $("#carouselButton").click(function () {
-                    if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                        $("#mycarousel").carousel('pause');
-                        $("#carouselButton").children("span").removeClass('fa-pause');
-                        $("#carouselButton").children("span").addClass('fa-play');
-                    } else if ($("#carouselButton").children("span").hasClass('fa-play')) {
-                        $("#mycarousel").carousel('cycle');
-                        $("#carouselButton").children("span").removeClass('fa-play');
-                        $("#carouselButton").children("span").addClass('fa-pause');
-                    }
-                });
+        <div id="preloader"></div>
 
 
-                $("#reserveButton").click(function () {
-                    $('#reserveModal').modal("toggle");
-                });
-                $("#loginButton").click(function () {
-                    $('#loginModal').modal("toggle");
-                });
-            });
-        </script>
+
+        <!-- JavaScript Libraries -->
+
+        <script src="lib/jquery/jquery.min.js"></script>
+
+        <script src="lib/jquery/jquery-migrate.min.js"></script>
+
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <script src="lib/easing/easing.min.js"></script>
+
+        <script src="lib/superfish/hoverIntent.js"></script>
+
+        <script src="lib/superfish/superfish.min.js"></script>
+
+        <script src="lib/wow/wow.min.js"></script>
+
+        <script src="lib/waypoints/waypoints.min.js"></script>
+
+        <script src="lib/counterup/counterup.min.js"></script>
+
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+        <!-- Contact Form JavaScript File -->
+
+        <script src="contactform/contactform.js"></script>
+
+
+
+        <!-- Template Main Javascript File -->
+
+        <script src="js/main.js"></script>
+
+
+
+
+
 </body>
 
 </html>
