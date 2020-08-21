@@ -439,7 +439,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-    color: red;
+    color: #6b1b74;
 }
 
 .nav-menu > li {
@@ -467,7 +467,7 @@ h6 {
         }
 
         .nav-menu ul li:hover > a {
-            color: #007bff;
+            color:#9528a1;
         }
 
     .nav-menu ul ul {
@@ -503,7 +503,7 @@ h6 {
     padding-top: 18px;
     bottom: 0;
     z-index: 998;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(214, 139, 231, 0.8);
     left: -260px;
     width: 260px;
     overflow-y: auto;
@@ -536,7 +536,7 @@ h6 {
             }
 
                 #mobile-nav ul li a:hover {
-                    color: #007bff;
+                    color: #331655;
                 }
 
             #mobile-nav ul li li {
@@ -544,7 +544,7 @@ h6 {
             }
 
             #mobile-nav ul li.menu-active a {
-                color: #007bff;
+                color: #331655;
             }
 
         #mobile-nav ul .menu-has-children i {
@@ -565,7 +565,7 @@ h6 {
         }
 
         #mobile-nav ul .menu-item-active {
-            color: #007bff;
+            color: #581f5f;
         }
 
 #mobile-body-overly {
@@ -1597,7 +1597,7 @@ body.mobile-nav-active {
 }
 
     .nav-link:hover {
-        border-top: 4px solid dodgerblue;
+        border-top: 4px solid rgb(88, 38, 121);
     }
 
 .dropdown-menu a{
@@ -1606,7 +1606,7 @@ body.mobile-nav-active {
 
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
     background-image: none;
-    background-color: dodgerblue;
+    background-color: rgb(172, 130, 192);
 }
 
 
