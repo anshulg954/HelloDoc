@@ -1753,7 +1753,7 @@ h3 {
 .dropdown-menu {
     border-radius: 3%;
     z-index: -3;
-    margin-top: -10px;
+    margin-top: -40px;
     margin-right: -60% !important;
     color:white;
 }
@@ -1779,3 +1779,10 @@ h3 {
 .navbar{
     width:100%;
 }  
+.nav-dropdown {
+    background-color: black;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
