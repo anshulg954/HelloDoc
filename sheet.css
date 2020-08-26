@@ -166,7 +166,7 @@ h6 {
     right: 0;
     transition: all 0.5s;
     z-index: 997;
-    background-color: #dbb1df;
+    background-color: #621769;
 }
 
 
@@ -439,7 +439,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-    color: #6b1b74;
+    color: #e7b718;
 }
 
 .nav-menu > li {
@@ -467,7 +467,7 @@ h6 {
         }
 
         .nav-menu ul li:hover > a {
-            color:#9528a1;
+            color:#e7b718;
         }
 
     .nav-menu ul ul {
@@ -1688,8 +1688,8 @@ body.mobile-nav-active {
 }
 
     .nav-link:hover {
-        border-top: 4px solid rgb(88, 38, 121);
-        color: rgb(68, 11, 68) !important;
+        border-top: 4px solid #e7b718;
+        color: #e7b718 !important;
     }
 
 .dropdown-menu a{
@@ -1877,7 +1877,7 @@ h3 {
         top: 0;
         right: 0;
         transition: all 0.5s;
-        background-color: #dbb1df;
+        background-color: #621769;
     }
     
     
