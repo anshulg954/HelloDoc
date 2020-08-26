@@ -1803,7 +1803,7 @@ h3 {
     overflow: hidden;
     top: 0;
     right: 0;
-    background-color: rgb(153, 85, 231);
+    background-color: rgb(182, 143, 228);
     border-radius: 0 4px 0 32px;
 }
 
@@ -1822,9 +1822,13 @@ h3 {
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
+    height: 150px;
+    width:250px;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
+    text-align: center;
+    color: rgb(171, 140, 206);
 }
 
     .card1:before {
@@ -1833,7 +1837,7 @@ h3 {
         z-index: -1;
         top: -16px;
         right: -16px;
-        background: rgb(153, 85, 231);
+        background: rgb(171, 140, 206);
         height: 32px;
         width: 32px;
         border-radius: 32px;
