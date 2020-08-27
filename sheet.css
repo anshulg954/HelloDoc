@@ -1958,7 +1958,13 @@ h3 {
 .marqueebox:before, .marqueebox::before {
     top: 0;
 }
-
+.inner-img {
+    transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.1);
+  }
 
 
 
