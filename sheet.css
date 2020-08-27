@@ -1648,35 +1648,44 @@ body.mobile-nav-active {
         padding-right: 60px;
     }
 }
-
-@media (max-width: 768px) {
-    .back-to-top {
-        bottom: 15px;
-    }
-
-    #header #logo h1 {
-        font-size: 28px;
-    }
-
-    #header #logo img {
-        max-height: 40px;
-    }
-
-    #intro h2 {
-        font-size: 28px;
-    }
-
-    #nav-menu-container {
-        display: none;
-    }
-
-    #mobile-nav-toggle {
-        display: inline;
-    }
+.imagec {
+    height: 20%;
+    width: 20%;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
+    @media (max-width: 1295px) {
+        .imagec {
+            height: 20%;
+            width: 20em;
+        }
 
+        .back-to-top {
+            bottom: 15px;
+        }
 
-.navbar-inner li {
+        #header #logo h1 {
+            font-size: 28px;
+        }
+
+        #header #logo img {
+            max-height: 40px;
+        }
+
+        #intro h2 {
+            font-size: 28px;
+        }
+
+        #nav-menu-container {
+            display: none;
+        }
+
+        #mobile-nav-toggle {
+            display: inline;
+        }
+    }
+
+    .navbar-inner li {
     line-height: 40px;
     letter-spacing: 2px;
 }
