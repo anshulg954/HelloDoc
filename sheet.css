@@ -34,6 +34,9 @@ a {
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.textt {
+   background-image: linear-gradient(rgba(256, 256, 256, 0) 20%, rgba(253, 212, 56, 100) 25%, rgba(253, 212, 56, 100) 85%, rgba(256, 256, 256, 0) 90%);font-size:22px;color:black;
+}
 html {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
@@ -41,7 +44,9 @@ html {
     letter-spacing: 2px;
     overflow: auto;
 }
-
+#inline{
+    display:inline-block;
+}
 body {
     background: #fff;
     color: #444;
@@ -491,9 +496,7 @@ h6 {
     cursor: pointer;
 }
 
-    #mobile-nav-toggle i {
-        color: #fff;
-    }
+   
 
 /* Mobile Nav Styling */
 
@@ -590,6 +593,7 @@ body.mobile-nav-active {
     }
 
     body.mobile-nav-active #mobile-nav-toggle {
+        
         color: #fff;
     }
 
