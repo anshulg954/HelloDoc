@@ -154,7 +154,7 @@
 
   $(window).scroll(function() {
 
-    if ($(this).scrollTop() > 700) {
+    if ($(this).scrollTop() > 10) {
 
       $('#header').addClass('header-scrolled');
 
