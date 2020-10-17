@@ -1,61 +1,77 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
-    <title>CoderDocs - Bootstrap 4 Documentation Template For Software Projects</title>
-    
-    <!-- Meta -->
+    <title>Hello Doc!</title>
+    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bootstrap Documentation Template For Software Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico"> 
-    
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome JS-->
-    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="img/logo.png" type="image/icon" sizes="16x16">
 
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+    <!-- Google Fonts -->
 
-</head> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
-<body>    
-    <header class="header fixed-top">	    
-        <div class="branding docs-branding">
-            <div class="container-fluid position-relative py-2">
-                <div class="docs-logo-wrapper">
-	                <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon mr-2" src="assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">Coder<span class="text-alt">Docs</span></span></a></div>    
-                </div><!--//docs-logo-wrapper-->
-	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
-	
-					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
-						<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-		                <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
-		                <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
-		            </ul><!--//social-list-->
-		            <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderdocs-free-bootstrap-4-documentation-template-for-software-projects/" class="btn btn-primary d-none d-lg-flex">Download</a>
-	            </div><!--//docs-top-utilities-->
-            </div><!--//container-->
-        </div><!--//branding-->
-    </header><!--//header-->
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap CSS File -->
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="sheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="docs/assets/css/theme.css" media="screen" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header id="header">
+        <div class="container-fluid">
     
+          <div id="logo" class="float-left">
+            <h1><a href="#intro" class="scrollto">Sprouts Clinic</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+          </div>
     
-    <div class="page-header theme-bg-dark py-5 text-center position-relative">
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li class="menu-active"><a href="docs/docshpage.html">Periods & Sexual Wellbeing</a></li>
+              <li><a href="#about">Contraception</a></li>
+              <li><a href="#services">Abortion</a></li>
+              <li><a href="events.html">Pregnancy</a></li>
+              <li><a href="#team">Infertility</a></li>
+              <li><a href="#contact">Cancer </a></li>
+              <li><a href="fitness.html">Fitness</a></li>
+            </ul>
+          </nav><!-- #nav-menu-container -->
+        </div>
+      </header><!-- #header -->
+
+
+
+      <div class="page-header theme-bg-dark py-5 text-center position-relative">
 	    <div class="theme-bg-shapes-right"></div>
 	    <div class="theme-bg-shapes-left"></div>
 	    <div class="container">
-		    <h1 class="page-heading single-col-max mx-auto">Documentation</h1>
-		    <div class="page-intro single-col-max mx-auto">Everything you need to get your software documentation online.</div>
-		    <div class="main-search-box pt-3 d-block mx-auto">
-                 <form class="search-form w-100">
-		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
-		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
-		        </form>
-             </div>
+		    <h1 class="page-heading single-col-max mx-auto">Periods & Sexual Wellbeing</h1>
+		    <div class="page-intro single-col-max mx-auto">Everything you need to know about.</div>
+		   
 	    </div>
     </div><!--//page-header-->
     <div class="page-content">
@@ -74,7 +90,7 @@
 							    <div class="card-text">
 								    Section overview goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 							    </div>
-							    <a class="card-link-mask" href="docs-page.html#section-1"></a>
+							    <a class="card-link-mask" href="docs/docs-page.html#section-1"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -90,7 +106,7 @@
 							    <div class="card-text">
 								    Section overview goes here. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
 							    </div>
-							    <a class="card-link-mask" href="docs-page.html#section-2"></a>
+							    <a class="card-link-mask" href="docs/docs-page.html#section-2"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -106,7 +122,7 @@
 							    <div class="card-text">
 								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
 								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-3"></a>
+							    <a class="card-link-mask" href="docs/docs-page.html#section-3"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -122,7 +138,7 @@
 							    <div class="card-text">
 								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
 								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-4"></a>
+							    <a class="card-link-mask" href="docs/docs-page.html#section-4"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -138,7 +154,7 @@
 							    <div class="card-text">
 								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
 								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-5"></a>
+							    <a class="card-link-mask" href="docs/docs-page.html#section-5"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -154,7 +170,7 @@
 							    <div class="card-text">
 								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
 								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-6"></a>
+							    <a class="card-link-mask" href="docs/docs-page.html#section-6"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -170,7 +186,7 @@
 							    <div class="card-text">
 								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
 								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-7"></a>
+							    <a class="card-link-mask" href="docs/docs-page.html#section-7"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -186,7 +202,7 @@
 							    <div class="card-text">
 								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
 								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-8"></a>
+							    <a class="card-link-mask" href="docs/docs-page.html#section-8"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -202,7 +218,7 @@
 							    <div class="card-text">
 								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
 								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
+							    <a class="card-link-mask" href="docs/docs-page.html#section-9"></a>
 						    </div><!--//card-body-->
 					    </div><!--//card-->
 				    </div><!--//col-->
@@ -211,46 +227,133 @@
 		</div><!--//container-->
     </div><!--//page-content-->
 
-    <section class="cta-section text-center py-5 theme-bg-dark position-relative">
-	    <div class="theme-bg-shapes-right"></div>
-	    <div class="theme-bg-shapes-left"></div>
-	    <div class="container">
-		    <h3 class="mb-2 text-white mb-3">Launch Your Software Project Like A Pro</h3>
-		    <div class="section-intro text-white mb-3 single-col-max mx-auto">Want to launch your software project and start getting traction from your target users? Check out our premium <a class="text-white" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/">Bootstrap 4 startup template CoderPro</a>! It has everything you need to promote your product.</div>
-		    <div class="pt-3 text-center">
-			    <a class="btn btn-light" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/">Get CoderPro<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
-		    </div>
-	    </div>
-    </section><!--//cta-section-->
+   
 
-               
-    
-    <footer class="footer">
 
-	    <div class="footer-bottom text-center py-5">
-		    
-		    <ul class="social-list list-unstyled pb-4 mb-0">
-			    <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li> 
-	            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-	            <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
-	            <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
-	            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
-	            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
-	        </ul><!--//social-list-->
-	        
-	        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-            <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-            
-	        
-	    </div>
-	    
+
+
+    <footer id="footer">
+
+
+        <div class="footer-top">
+
+            <div class="container">
+
+                <div class="row">
+
+
+
+                    <div class="col-lg-4 col-md-6 footer-info">
+
+                        <h3 style="color: oldlace !important;">Sprouts Clinic</h3>
+
+                        <p class="text-justify">Aim here</p>
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 footer-links">
+
+                        <h4>Useful Links</h4>
+
+                        <ul>
+
+                            <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
+
+                            <li><i class="ion-ios-arrow-right"></i> <a href="index.html#about">About the Doc</a></li>
+
+                            <li><i class="ion-ios-arrow-right"></i> <a href="index.html#services">FAQs</a></li>
+
+                            <li><i class="ion-ios-arrow-right"></i> <a href="http://www.ccet.ac.in" target="_blank">Webmasters</a></li>
+
+                        </ul>
+
+                    </div>
+
+
+
+                    <div class="col-lg-4 col-md-6 footer-contact">
+
+                        <h4>Contact Us</h4>
+
+                        <p>
+
+                            Sprouts Clinic<br>
+
+                            Chandigarh, India<br>
+
+                            <strong>Website:</strong><a href="http://www.sproutsclinic.com" target="_blank"> www.sproutsclinic.com</a><br>
+
+                        </p>
+                        <div class="social-links">
+                            <a href="https://" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="mailto:@gmail.com" class="google-plus"><i class="fa fa-envelope"></i></a>
+                            <a href="https://" class="fa fa-twitter"></a>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
     </footer>
-       
-    <!-- Javascript -->          
-    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
-    <script src="assets/plugins/popper.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <div id="preloader"></div>
+
+
+
+    <!-- JavaScript Libraries -->
+
+    <script src="lib/jquery/jquery.min.js"></script>
+
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="lib/easing/easing.min.js"></script>
+
+    <script src="lib/superfish/hoverIntent.js"></script>
+
+    <script src="lib/superfish/superfish.min.js"></script>
+
+    <script src="lib/wow/wow.min.js"></script>
+
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+    <!-- Contact Form JavaScript File -->
+
+    <script src="contactform/contactform.js"></script>
+
+
+
+    <!-- Template Main Javascript File -->
+
+    <script src="js/main.js"></script>
+
+
+
+
 
 </body>
-</html> 
 
+</html>
