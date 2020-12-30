@@ -2980,14 +2980,14 @@ svg #airplain {
 --------------------------------------------------------------*/
 
 #footer {
-    background: #000 !important;
+    background:#db2d75 !important;
     padding: 0 0 30px 0;
     color: #eee;
     font-size: 14px;
 }
 
     #footer .footer-top {
-        background: #111;
+        background: #c91d64;
         padding: 60px 0 30px 0;
     }
 
@@ -3003,7 +3003,7 @@ svg #airplain {
                 font-family: "Montserrat", sans-serif;
                 font-weight: 700;
                 letter-spacing: 3px;
-                border-left: 4px solid #007bff;
+                border-left: 4px solid #ff76af;
             }
 
             #footer .footer-top .footer-info p {
@@ -3017,7 +3017,7 @@ svg #airplain {
         #footer .footer-top .social-links a {
             font-size: 18px;
             display: inline-block;
-            background: #333;
+            background: #830b3d;
             color: #eee;
             line-height: 1;
             padding: 8px 0;
@@ -3030,7 +3030,7 @@ svg #airplain {
         }
 
             #footer .footer-top .social-links a:hover {
-                background: #007bff;
+                background: #ff76af;
                 color: #fff;
             }
 
@@ -3054,11 +3054,11 @@ svg #airplain {
 
             #footer .footer-top h4::before {
                 right: 0;
-                background: #555;
+                background: #830b3d;
             }
 
             #footer .footer-top h4::after {
-                background: #007bff;
+                background:#ff76af;
                 width: 60px;
             }
 
@@ -3078,7 +3078,7 @@ svg #airplain {
                 }
 
                 #footer .footer-top .footer-links ul li {
-                    border-bottom: 1px solid #333;
+                   /* border-bottom: 1px solid  #830b3d;*/
                     padding: 10px 0;
                 }
 
@@ -3091,15 +3091,17 @@ svg #airplain {
                 }
 
                     #footer .footer-top .footer-links ul a:hover {
-                        color: #007bff;
+                        color: #f780b1;
                     }
 
         #footer .footer-top .footer-contact {
             margin-bottom: 30px;
+            color: white !important;
         }
 
             #footer .footer-top .footer-contact p {
                 line-height: 26px;
+                color: white !important;
             }
 
         #footer .footer-top .footer-newsletter {
@@ -3113,7 +3115,7 @@ svg #airplain {
             }
 
             #footer .footer-top .footer-newsletter input[type="submit"] {
-                background: #007bff;
+                background: #c91d64;
                 border: 0;
                 width: 35%;
                 padding: 6px 0;
